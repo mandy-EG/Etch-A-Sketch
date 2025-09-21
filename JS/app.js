@@ -21,7 +21,7 @@ function colorBlack(celda) {
 }
 
 function colorRandom(celda) {
-    let colores = ['black', 'red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown', 'gray'];
+    let colores = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown', 'gray'];
     let colorRandom = colores[Math.floor(Math.random() * colores.length)];
     celda.style.backgroundColor = colorRandom;
 }
