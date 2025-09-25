@@ -14,6 +14,8 @@ function crearCeldas() {
         container.appendChild(celda);
         celda.addEventListener('mouseover', () => { colorBlack(celda) });
     }
+
+    const hola = "hola"
 }
 
 function colorBlack(celda) {
